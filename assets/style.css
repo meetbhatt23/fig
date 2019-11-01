@@ -8,8 +8,12 @@ body {
   padding:0;
   margin:0;
   height: 100%;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
   /* overflow: hidden; */
 }
+body::-webkit-scrollbar { width: 0 !important }
+
 
 /* .Loop {
   position: relative;
@@ -37,15 +41,37 @@ position: relative;
 }
 
 
+.layer2{
+  /* z-index:2; */
+  /* position: absolute; */
+  top:0;
+  left:0;
+}
+.block2{
+  /* background-color: red; */
+  /* opacity: .5; */
+  width:100vw;
+  height:95vh;
+}
 
 .black{
+width:100vw;
   background-color: black;
+}
+.balck img{
+  width:100vw;
 }
 .white{
 
 background-color: white;
 }
 .intro{
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  position: absolute;
+  padding:50px;
+  width:50%;
   font-family: axis_b;
   font-size:36px;
   color:#000;
@@ -59,7 +85,7 @@ background-color: white;
   width:400px;
   position: sticky;
   position: -webkit-sticky;
-  top:0;
+  top:0px;
 }
 .gif2{
   float:left;
@@ -70,6 +96,7 @@ background-color: white;
 }
 
 .theme{
+    padding:50px;
 width:50%;
 }
 .heading{
@@ -77,30 +104,48 @@ width:50%;
   font-size:56px;
 }
 .writeup{
-
+  font-family: 'Nunito Sans', sans-serif;
+font-size:18px;
 }
 .blue{
-  background-color: #37A7FF;
+  background-color: white;
 }
 .guidelines{
+  float:right;
+    padding:50px;
 width:50%;
 }
 .green{
   background-color: #8AFE4F;
 }
 .area{
+  /* background-color: red; */
+  width:100%;
   /* background-color: grey; */
   top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
+  left:0;
+  transform:translateY(-50%);
   /* margin:50px; */
   position: absolute;
 }
 .footer{
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  position: absolute;
+  width:50%;
+    padding:50px;
   color:white;
+display: flex;
+flex-wrap: wrap;
+}
+.footer_images{
 display: flex;
 flex-wrap: nowrap;
 }
 .footer img{
 height:300px;
+}
+.sponsortext{
+  color:white;
 }
