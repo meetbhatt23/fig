@@ -1,0 +1,106 @@
+@font-face {
+font-family: axis_b;
+src: url("AXIS-Extra-Bold-800.woff") format("woff");
+}
+
+html,
+body {
+  padding:0;
+  margin:0;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+/* .Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+::scrollbar {
+  display: none;
+} */
+
+body{
+color:#fff;
+}
+
+.block{
+color:black;
+font-size:18px;
+position: relative;
+  width:100vw;
+  height:100vh;
+}
+
+
+
+.black{
+  background-color: black;
+}
+.white{
+
+background-color: white;
+}
+.intro{
+  font-family: axis_b;
+  font-size:36px;
+  color:#000;
+}
+.grey{
+
+  background-color: #EAEAEA;
+}
+.gif1{
+  float:right;
+  width:400px;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+}
+.gif2{
+  float:left;
+  width:400px;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+}
+
+.theme{
+width:50%;
+}
+.heading{
+  font-family: axis_b;
+  font-size:56px;
+}
+.writeup{
+
+}
+.blue{
+  background-color: #37A7FF;
+}
+.guidelines{
+width:50%;
+}
+.green{
+  background-color: #8AFE4F;
+}
+.area{
+  /* background-color: grey; */
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  /* margin:50px; */
+  position: absolute;
+}
+.footer{
+  color:white;
+display: flex;
+flex-wrap: nowrap;
+}
+.footer img{
+height:300px;
+}
