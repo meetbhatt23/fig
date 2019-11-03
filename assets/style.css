@@ -17,26 +17,12 @@ body {
 }
 body::-webkit-scrollbar { width: 0 !important }
 
-
-/* .Loop {
-  position: relative;
-  height: 100%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-
-
-::scrollbar {
-  display: none;
-} */
-
 body{
 color:#fff;
 }
 
 .block{
-    overflow: hidden;
+    /* overflow: hidden; */
 color:black;
 font-size:18px;
 position: relative;
