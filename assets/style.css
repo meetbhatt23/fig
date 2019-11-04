@@ -39,7 +39,7 @@ position: relative;
 .fig1{
   color: white;
 width:100%;
-height:25vh;
+height:20vh;
 font-family: axis_b;
 background-color: black;
 position: relative;
@@ -50,7 +50,7 @@ position: relative;
   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
 width:100%;
-height:25vh;
+height:20vh;
 font-family: axis_b;
 background-color: black;
 }
@@ -58,7 +58,7 @@ background-color: black;
   position: relative;
 color:black;
 width:100%;
-height:25vh;
+height:20vh;
 font-family: axis_b;
 background-color: white;
 }
@@ -66,12 +66,32 @@ background-color: white;
   position: relative;
   color:white;
 width:100%;
-height:25vh;
+height:20vh;
 font-family: axis_b;
 background-color: black;
 }
+.fig5{
+  position: relative;
+width:100%;
+height:20vh;
+font-family: axis_b;
+background-color: #EAEAEA;
+color:#EAEAEA;
+-webkit-text-stroke-width: 1.4px;
+ -webkit-text-stroke-color: #FF40FF;
+}
+.figtext2{
+  font-size: 95px;
+  position: absolute;
+  top:50%;
+  left:0;
+  /* width:2565px; */
+transform:translateY(-50%);
+display: flex;
+flex-wrap: nowrap;
+}
 .figtext{
-  font-size: 100px;
+  font-size: 95px;
   position: absolute;
   top:50%;
   left:0;
@@ -92,6 +112,9 @@ transform:translateY(-50%);
 .figtext .mover-4 {
   animation: moveSlideshow 18s linear infinite;
 }
+.figtext2 .mover-5 {
+  animation: moveSlideshow2 18s linear infinite;
+}
 @keyframes moveSlideshow {
   100% {
     transform: translateX(-66.6666%);
@@ -99,14 +122,10 @@ transform:translateY(-50%);
 }
 @keyframes moveSlideshow2 {
   100% {
-    transform: translateX(66.6666%);
+    transform: translateX(-66.6666%);
   }
 }
-@keyframes moveSlideshow3 {
-  100% {
-    transform: translateX(66.6666%);
-  }
-}
+
 b{
   color:#FF40FF;
 }
@@ -194,20 +213,20 @@ background-color: white;
   color:#000;
 }
 .grey{
-
+height:150vh !important;
   background-color: #EAEAEA;
 }
 
 .gif1{
   float:right;
-  width:320px;
+  width:420px;
   position: sticky;
   position: -webkit-sticky;
   top:0px;
 }
 .gif2{
   float:left;
-  width:320px;
+  width:420px;
   position: sticky;
   position: -webkit-sticky;
   top:0;
@@ -275,6 +294,17 @@ height:300px;
   color:white;
   font-family: stolz;
 }
+.dates{
+  font-weight: 700;
+}
+@media (max-width:900px){
+.gif1,
+.gif2{
+  width:300px;
+}
+
+}
+
 @media (max-width:600px){
   .writeup{
     font-size:16px;
