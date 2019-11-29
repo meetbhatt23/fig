@@ -3,17 +3,15 @@
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
 var scrolltop = $('.block').height()
-var scrollheight = scrolltop * 3
+var scrollheight = scrolltop * 0
 console.log(scrolltop)
 if(scroll > scrollheight){
-$('.opencall').css({'opacity': .001 * scroll})
+$('.opencall').css({'opacity': 1 * scroll})
 $('.opencall').addClass('opencallpop')
 }
 
 });
-// $('.opencall').on('hover', function(){
-//   $('.opencall').addClass('opencallcolor')
-// })
+
 
 $(function() {
     var img = $('.rick').html();

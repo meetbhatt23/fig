@@ -392,14 +392,9 @@ flex-wrap: wrap;
   font-size: 18px;
 
 }
-
 .gif1,
 .gif2{
-  display: block;
-  position: relative;
-  /* position: -webkit-sticky; */
-    float:none;
-  width:100vw;
+  width:120px;
 }
 }
 
@@ -448,5 +443,24 @@ flex-wrap: wrap;
   font-size: 14px;
 
 }
+.gif1,
+.gif2{
+    /* display: none; */
 
+}
+/* .gif2{
+  float:left;
+  width:420px;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+} */
+.gif1,
+.gif2{
+  display: block;
+  position: relative;
+  /* position: -webkit-sticky; */
+    float:none;
+  width:100vw;
+}
 }

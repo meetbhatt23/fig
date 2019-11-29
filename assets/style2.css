@@ -1,0 +1,538 @@
+@font-face {
+font-family: axis_b;
+src: url("AXIS-Extra-Bold-800.woff") format("woff");
+}
+@font-face {
+font-family: stolz;
+src: url("The-Northern-Block-Ltd-Stolzl-Display-Medium.woff") format("woff");
+}
+
+body{
+  background-color: black;
+}
+.branding{
+  overflow: hidden;
+  color:black;
+  font-size:18px;
+  position: relative;
+    width:100vw;
+    height:20vh;
+}
+.fig{
+  position: relative;
+width:100%;
+height:100%;
+font-family: axis_b;
+background-color: black;
+color:black;
+-webkit-text-stroke-width: 1.4px;
+ -webkit-text-stroke-color: white;
+}
+.figtext{
+  font-size: 80px;
+  position: absolute;
+  top:50%;
+  left:0;
+  width:2565px;
+transform:translateY(-50%);
+  display: flex;
+  flex-wrap: nowrap;
+}
+.figtext .mover-1 {
+  animation: moveSlideshow 14s linear infinite;
+}
+.grid1{
+  width:1200px;
+  height:960px;
+  background-color: black;
+  margin:0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+show2{
+    display: block;
+}
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7,
+.block8,
+.block9,
+.block10,
+.block11,
+.block12,
+.block13,
+.block14,
+.block15,
+.block16,
+.block17,
+.block18,
+.block19,
+.block20,
+.block21,
+.block22,
+.block23,
+.block24,
+.block25,
+.block26,
+.block27,
+.block28,
+.block29,
+.block30{
+cursor:pointer;
+    z-index: 1;
+  width:240px;
+  height:240px;
+  /* background-color: blue; */
+  /* background-image: url(idea_jam_sriparna_ghosh.gif); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block1{
+    background-image: url(idea_jam.gif);
+}
+.block2{
+    background-image: url(anarchy.gif);
+}
+.block3{
+    background-image: url(artclass.gif);
+}
+.block4{
+    background-image: url(broti.gif);
+}
+.block5{
+    background-image: url(decisions.gif);
+}
+.block6{
+    background-image: url(cloudbrain.gif);
+}
+.block7{
+    background-image: url(sunya.gif);
+}
+.block8{
+    background-image: url(muybnew.gif);
+}
+.block9{
+    background-image: url(flowofidea.gif);
+}
+
+.block10{
+    background-image: url(stuti.gif);
+}
+.block11{
+    background-image: url(cycle_creativity.gif);
+}
+.block12{
+    background-image: url(running.gif);
+}
+
+.block13{
+    background-image: url(madira.gif);
+}
+.block14{
+    background-image: url(eyes.gif);
+}
+.block15{
+    background-image: url(dwarka.gif);
+}
+.block16{
+    background-image: url(cheezeye.gif);
+}
+.block17{
+    background-image: url(limp.gif);
+}
+.block18{
+    background-image: url(originalreally.gif);
+}
+.block19{
+    background-image: url(waves.gif);
+}
+.block20{
+    background-image: url(creativity_in_nutshell.gif);
+}
+.block21{
+    background-image: url(theideadidnt.gif);
+}
+.block22{
+    background-image: url(bulb.gif);
+}
+.block23{
+    background-image: url(brain_fried.gif);
+}
+.block24{
+    background-image: url(bhejafry.gif);
+}
+.block25{
+    background-image: url(astarisborn.gif);
+}
+.block26{
+      background-image: url(vedika.gif);
+}
+.block27{
+  background-image: url(grid_new.gif);
+}
+.block28{
+    background-image: url(shelly.gif);
+}
+.block29{
+    background-image: url(brainbuffer.gif);
+}
+.block30{
+    background-image: url(sanmadi.gif);
+}
+.color{
+    background-color:black;
+}
+/* .block2:hover{
+    background-color:white;
+} */
+.grid2{
+    z-index: 10;
+  position: fixed;
+  top:0;
+  left:0;
+}
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7,
+.section8,
+.section9,
+.section10,
+.section11,
+.section12,
+.section13,
+.section14,
+.section15,
+.section16,
+.section17,
+.section18,
+.section19,
+.section20,
+.section21,
+.section22,
+.section23,
+.section24,
+.section25,
+.section26,
+.section27,
+.section28,
+.section29,
+.section30{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  width:0;
+  height:0;
+  position:absolute;
+    background-color:rgb(0, 0, 0, 0.5);
+    opacity:0;
+}
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video7,
+.video8,
+.video9,
+.video10,
+.video11,
+.video12,
+.video13,
+.video14,
+.video15,
+.video16,
+.video17,
+.video18,
+.video19,
+.video20,
+.video21,
+.video22,
+.video23,
+.video24,
+.video25,
+.video26,
+.video27,
+.video28,
+.video29,
+.video30{
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+  width:600px;
+  height:600px;
+}
+.video1{
+    background-image: url(idea_jam.gif);
+}
+
+.video2{
+    background-image: url(anarchy.gif);
+}
+.video3{
+    background-image: url(artclass.gif);
+}
+.video4{
+    background-image: url(broti.gif);
+}
+.video5{
+    background-image: url(decisions.gif);
+}
+.video6{
+    background-image: url(cloudbrain.gif);
+}
+.video7{
+    background-image: url(sunya.gif);
+}
+.video8{
+    background-image: url(muybnew.gif);
+}
+.video9{
+    background-image: url(flowofidea.gif);
+}
+
+.video10{
+    background-image: url(stuti.gif);
+}
+.video11{
+    background-image: url(cycle_creativity.gif);
+}
+.video12{
+    background-image: url(running.gif);
+}
+
+.video13{
+    background-image: url(madira.gif);
+}
+.video14{
+    background-image: url(eyes.gif);
+}
+.video15{
+    background-image: url(dwarka.gif);
+}
+.video16{
+    background-image: url(cheezeye.gif);
+}
+.video17{
+    background-image: url(limp.gif);
+}
+.video18{
+    background-image: url(originalreally.gif);
+}
+.video19{
+    background-image: url(waves.gif);
+}
+.video20{
+    background-image: url(creativity_in_nutshell.gif);
+}
+.video21{
+    background-image: url(theideadidnt.gif);
+}
+.video22{
+    background-image: url(bulb.gif);
+}
+.video23{
+    background-image: url(brain_fried.gif);
+}
+.video24{
+    background-image: url(bhejafry.gif);
+}
+.video25{
+    background-image: url(astarisborn.gif);
+}
+.video26{
+    background-image: url(vedika.gif);
+}
+.video27{
+    background-image: url(grid_new.gif);
+}
+.video28{
+    background-image: url(shelly.gif);
+}
+.video29{
+    background-image: url(brainbuffer.gif);
+}
+.video30{
+    background-image: url(sanmadi.gif);
+}
+.notes{
+  width:400px;
+  height:600px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.notes1{
+  /* padding:10px; */
+  background-color: white;
+  color: black;
+  width:400px;
+  height:450px;
+}
+.notes2{
+  background-color: black;
+  color: white;
+  /* padding:10px; */
+  /* background-color: white; */
+  width:400px;
+  height:150px;
+}
+
+.title{
+  padding: 10px;
+  font-size: 32px;
+  font-family: axis_b;
+
+}
+.description{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16.8px;
+}
+.artist{
+  color:white;
+    font-family: axis_b;
+    font-size: 32px;
+padding: 10px;
+}
+.socialhandle{
+  text-decoration: none;
+    color:white;
+  font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+padding: 0 10px 10px 10px;
+}
+.close{
+  font-family: axis_b;
+  cursor:pointer;
+  position: absolute;
+  font-size: 50px;
+  top:50px;
+  right:50px;
+  color:#FF40FF;
+}
+
+.show{
+  width:100vw;
+  height:100vh;
+  opacity:1;
+}
+
+@media(max-width:1050px){
+.grid{
+    margin:0;
+}
+      .artist{
+          font-size: 27px;
+      }
+      .title{
+        font-size: 27px;
+      }
+      .notes{
+        width:600px;
+        height:400px;
+      }
+
+      .notes1{
+          overflow: scroll;
+        width:600px;
+        height:250px;
+      }
+      .notesscroll{
+        width:600px;
+          height:auto;
+            overflow: scroll;
+      }
+      .notes2{
+        width:600px;
+        height:150px;
+      }
+
+}
+  @media(max-width:600px){
+
+
+    .close{
+      font-size: 24px;
+      top:10px;
+      right:10px;
+    }
+
+    .artist{
+        font-size: 21px;
+    }
+    .title{
+      font-size: 21px;
+    }
+    .notes{
+      width:300px;
+      height:300px;
+    }
+
+    .notes1{
+        overflow: scroll;
+      width:300px;
+      height:200px;
+    }
+    .notesscroll{
+      width:300px;
+        height:auto;
+          overflow: scroll;
+    }
+    .notes2{
+      width:300px;
+      height:100px;
+    }
+
+    .video1,
+    .video2,
+    .video3,
+    .video4,
+    .video5,
+    .video7,
+    .video8,
+    .video9,
+    .video10,
+    .video11,
+    .video12,
+    .video13,
+    .video14,
+    .video15,
+    .video16,
+    .video17,
+    .video18,
+    .video19,
+    .video20,
+    .video21,
+    .video22,
+    .video23,
+    .video24,
+    .video25,
+    .video26,
+    .video27,
+    .video28,
+    .video29,
+    .video30{
+      width:300px;
+      height:300px;
+    }
+
+  }
