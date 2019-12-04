@@ -43,7 +43,7 @@ transform:translateY(-50%);
 }
 .grid1{
   width:1200px;
-  height:960px;
+  height:1680px;
   background-color: black;
   margin:0;
   margin-top: 20px;
@@ -89,7 +89,12 @@ show2{
 .block27,
 .block28,
 .block29,
-.block30{
+.block30,
+.block31,
+.block32,
+.block33,
+.block34,
+.block35{
 cursor:pointer;
     z-index: 1;
   width:240px;
@@ -106,7 +111,7 @@ cursor:pointer;
     background-image: url(anarchy0.gif);
 }
 .block3{
-    background-image: url(artclass0.gif);
+    background-image: url(artclass.gif);
 }
 .block4{
     background-image: url(broti0.gif);
@@ -115,26 +120,26 @@ cursor:pointer;
     background-image: url(decisions0.gif);
 }
 .block6{
-    background-image: url(cloudbrain0.gif);
+    background-image: url(cloudbrain.gif);
 }
 .block7{
     background-image: url(sunya0.gif);
 }
 .block8{
-    background-image: url(muybnew0.gif);
+    background-image: url(growinghead.gif);
 }
 .block9{
     background-image: url(flowofidea0.gif);
 }
 
 .block10{
-    background-image: url(stuti0.gif);
+    background-image: url(vedika.gif);
 }
 .block11{
-    background-image: url(cycle_creativity0.gif);
+    background-image: url(cycle_creativity.gif);
 }
 .block12{
-    background-image: url(running0.gif);
+    background-image: url(running.gif);
 }
 
 .block13{
@@ -144,19 +149,19 @@ cursor:pointer;
     background-image: url(eyes0.gif);
 }
 .block15{
-    background-image: url(dwarka0.gif);
+    background-image: url(dwarka.gif);
 }
 .block16{
     background-image: url(cheezeye0.gif);
 }
 .block17{
-    background-image: url(limp0.gif);
+    background-image: url(limp.gif);
 }
 .block18{
-    background-image: url(originalreally0.gif);
+    background-image: url(originalreally.gif);
 }
 .block19{
-    background-image: url(waves0.gif);
+    background-image: url(grid_new.gif);
 }
 .block20{
     background-image: url(creativity_in_nutshell0.gif);
@@ -165,7 +170,7 @@ cursor:pointer;
     background-image: url(theideadidnt0.gif);
 }
 .block22{
-    background-image: url(bulb0.gif);
+    background-image: url(sanity.gif);
 }
 .block23{
     background-image: url(brain_fried0.gif);
@@ -177,19 +182,34 @@ cursor:pointer;
     background-image: url(astarisborn.gif);
 }
 .block26{
-      background-image: url(vedika0.gif);
+      background-image: url(loss_of_cc.gif);
 }
 .block27{
-  background-image: url(grid_new0.gif);
+  background-image: url(ashish0.gif);
 }
 .block28{
-    background-image: url(shelly0.gif);
+    background-image: url(sanmadi.gif);
 }
 .block29{
-    background-image: url(brainbuffer0.gif);
+    background-image: url(deepti_fig0.gif);
 }
 .block30{
-    background-image: url(sanmadi0.gif);
+    background-image: url(saket-ghaisas.gif);
+}
+.block31{
+      background-image: url(brainbuffer0.gif);
+}
+.block32{
+  background-image: url(vasudha.gif);
+}
+.block33{
+    background-image: url(shelly0.gif);
+}
+.block34{
+    background-image: url(aditya.gif);
+}
+.block35{
+    background-image: url(slipper0.gif);
 }
 .color{
     background-color:black;
@@ -232,7 +252,12 @@ cursor:pointer;
 .section27,
 .section28,
 .section29,
-.section30{
+.section30,
+.section31,
+.section32,
+.section33,
+.section34,
+.section35{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -251,6 +276,7 @@ align-items: center;
 .video3,
 .video4,
 .video5,
+.video6,
 .video7,
 .video8,
 .video9,
@@ -274,7 +300,12 @@ align-items: center;
 .video27,
 .video28,
 .video29,
-.video30{
+.video30,
+.video31,
+.video32,
+.video33,
+.video34,
+.video35{
   background-size: cover;
   background-repeat: no-repeat;
   /* background-color: red; */
@@ -304,14 +335,14 @@ align-items: center;
     background-image: url(sunya.gif);
 }
 .video8{
-    background-image: url(muybnew.gif);
+    background-image: url(growinghead.gif);
 }
 .video9{
     background-image: url(flowofidea.gif);
 }
 
 .video10{
-    background-image: url(stuti.gif);
+    background-image: url(vedika.gif);
 }
 .video11{
     background-image: url(cycle_creativity.gif);
@@ -339,7 +370,7 @@ align-items: center;
     background-image: url(originalreally.gif);
 }
 .video19{
-    background-image: url(waves.gif);
+    background-image: url(grid_new.gif);
 }
 .video20{
     background-image: url(creativity_in_nutshell.gif);
@@ -348,7 +379,7 @@ align-items: center;
     background-image: url(theideadidnt.gif);
 }
 .video22{
-    background-image: url(bulb.gif);
+    background-image: url(sanity.gif);
 }
 .video23{
     background-image: url(brain_fried.gif);
@@ -360,19 +391,35 @@ align-items: center;
     background-image: url(astarisborn.gif);
 }
 .video26{
-    background-image: url(vedika.gif);
+    background-image: url(loss_of_cc.gif);
 }
 .video27{
-    background-image: url(grid_new.gif);
+    background-image: url(ashish.gif);
 }
 .video28{
-    background-image: url(shelly.gif);
+    background-image: url(sanmadi.gif);
 }
 .video29{
-    background-image: url(brainbuffer.gif);
+    background-image: url(deepti_fig.gif);
 }
 .video30{
-    background-image: url(sanmadi.gif);
+    background-image: url(saket-ghaisas.gif);
+}
+
+.video31{
+    background-image: url(brainbuffer.gif);
+}
+.video32{
+    background-image: url(vasudha.gif);
+}
+.video33{
+    background-image: url(shelly.gif);
+}
+.video34{
+    background-image: url(aditya.gif);
+}
+.video35{
+    background-image: url(slipper.gif);
 }
 .notes{
   width:400px;
@@ -383,9 +430,15 @@ align-items: center;
 .notes1{
   /* padding:10px; */
   background-color: white;
+    overflow: scroll;
   color: black;
   width:400px;
   height:450px;
+}
+.notesscroll{
+  width:400px;
+  height:auto;
+    overflow: scroll;
 }
 .notes2{
   background-color: black;
@@ -494,8 +547,6 @@ padding: 0 10px 10px 10px;
     }
     .notesscroll{
       width:300px;
-        height:auto;
-          overflow: scroll;
     }
     .notes2{
       width:300px;
@@ -530,7 +581,12 @@ padding: 0 10px 10px 10px;
     .video27,
     .video28,
     .video29,
-    .video30{
+    .video30,
+    .video31,
+    .video32,
+    .video33,
+    .video34,
+    .video35{
       width:300px;
       height:300px;
     }

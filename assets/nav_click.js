@@ -120,6 +120,29 @@ $('.block30').on('click', function(){
 $('.section30').addClass('show')
 
 })
+
+$('.block31').on('click', function(){
+$('.section31').addClass('show')
+
+})
+$('.block32').on('click', function(){
+$('.section32').addClass('show')
+
+})
+$('.block33').on('click', function(){
+$('.section33').addClass('show')
+
+})
+$('.block34').on('click', function(){
+$('.section34').addClass('show')
+
+})
+$('.block35').on('click', function(){
+$('.section35').addClass('show')
+
+})
+
+
 $('.close').on('click', function(){
 $('.section1').removeClass('show')
 $('.section2').removeClass('show')
@@ -151,7 +174,11 @@ $('.section27').removeClass('show')
 $('.section28').removeClass('show')
 $('.section29').removeClass('show')
 $('.section30').removeClass('show')
-
+$('.section31').removeClass('show')
+$('.section32').removeClass('show')
+$('.section33').removeClass('show')
+$('.section34').removeClass('show')
+$('.section35').removeClass('show')
 })
 
 // $('.section1').on('click', function(){
